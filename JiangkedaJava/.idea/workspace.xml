@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5622457b-9b81-4ef2-a810-650a566ab1b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/neusoft/JDBCDemo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell_admin/src/com/neusoft/dao/BusinessDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell_admin/src/com/neusoft/dao/BusinessDaoImol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell_admin/src/com/neusoft/domain/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell_admin/src/com/neusoft/domain/Business.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell_admin/src/com/neusoft/domain/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sell_admin/src/com/neusoft/utils/JDBCUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -147,7 +152,8 @@
       <option name="presentableId" value="Default" />
       <updated>1605680751696</updated>
       <workItem from="1605680775440" duration="7601000" />
-      <workItem from="1605747262616" duration="16358000" />
+      <workItem from="1605747262616" duration="16418000" />
+      <workItem from="1605834001761" duration="1470000" />
     </task>
     <servers />
   </component>
@@ -171,37 +177,45 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="153" y="0" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1605684815913" />
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom" timestamp="1605778136504">
+    <state x="462" y="105" key="FileChooserDialogImpl" timestamp="1605835828986">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605778136504" />
-    <state width="1323" height="86" key="GridCell.Tab.0.center" timestamp="1605778136503">
+    <state x="462" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1605835828986" />
+    <state width="1323" height="169" key="GridCell.Tab.0.bottom" timestamp="1605840259856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605778136503" />
-    <state width="1323" height="86" key="GridCell.Tab.0.left" timestamp="1605778136503">
+    <state width="1323" height="169" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605840259856" />
+    <state width="1323" height="169" key="GridCell.Tab.0.center" timestamp="1605840259856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605778136503" />
-    <state width="1323" height="86" key="GridCell.Tab.0.right" timestamp="1605778136504">
+    <state width="1323" height="169" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1605840259856" />
+    <state width="1323" height="169" key="GridCell.Tab.0.left" timestamp="1605840259856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="86" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605778136504" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1605769964171">
+    <state width="1323" height="169" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1605840259856" />
+    <state width="1323" height="169" key="GridCell.Tab.0.right" timestamp="1605840259856">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605769964171" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1605769964171">
+    <state width="1323" height="169" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1605840259856" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1605778796509">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605769964171" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1605769964171">
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1605778796509" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1605778796508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605769964171" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1605769964171">
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1605778796508" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1605778796508">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605769964171" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1605778796508" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1605778796509">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1605778796509" />
+    <state x="57" y="0" key="new project wizard" timestamp="1605835831746">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1605835831746" />
   </component>
 </project>
